@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+
+{% block site_name %}Statistics{% endblock %}
+
+{% block content %}
+<div style="display: grid; justify-content: center; flex-wrap: wrap; gap: 1px;">
+<h1>insurance agency site statistic</h1>
+<ul>
+    <li><h2>Cost of deals: {{deals_count}}</h2></li>
+    <li><h2>Average age among: </h2></li>
+    <ul>
+        <li><strong>Customers </strong>- {{customers_average_age}}</li>
+        <li><strong>Employees </strong>- {{employees_average_age}}</li>
+        <li><strong>Owners </strong>- {{owners_average_age}}</li>
+    </ul>
+</ul>
+</div>
+    <div style="display: flex; justify-content: space-between; flex-wrap: wrap; gap: 20px;">
+        <div style="flex: 1; min-width: 300px; background: white; padding: 15px; border-radius: 8px; ">
+            <h2 style="text-align: center; margin-top: 0; color: #2c3e50;">Employee Performance</h2>
+            <img src="{{ employees_stats_picture }}" alt="Employee stats"
+                 style="display: block; max-width: 100%; height: auto; margin: 0 auto; border-radius: 4px;">
+        </div>
+
+        <div style="flex: 1; min-width: 300px; background: white; padding: 15px; border-radius: 8px;">
+            <h2 style="text-align: center; margin-top: 0; color: #2c3e50;">Property Types</h2>
+            <img src="{{ realty_stats_picture }}" alt="Realty stats"
+                 style="display: block; max-width: 100%; height: auto; margin: 0 auto; border-radius: 4px;">
+        </div>
+    </div>
+{% endblock %}

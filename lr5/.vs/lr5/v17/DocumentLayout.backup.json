@@ -1,0 +1,589 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\353502_Shevkunov_27\\IGI\\LR5\\lr5\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\353502_Shevkunov_27\\IGI\\LR5\\lr5\\estate_agency_back\\site_manager\\templates\\site_manager\\about.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:estate_agency_back\\site_manager\\templates\\site_manager\\about.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\353502_Shevkunov_27\\IGI\\LR5\\lr5\\estate_agency_back\\site_manager\\templates\\site_manager\\home.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:estate_agency_back\\site_manager\\templates\\site_manager\\home.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\353502_Shevkunov_27\\IGI\\LR5\\lr5\\estate_agency_back\\site_manager\\views.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:estate_agency_back\\site_manager\\views.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\353502_Shevkunov_27\\IGI\\LR5\\lr5\\estate_agency_back\\site_manager\\urls.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:estate_agency_back\\site_manager\\urls.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\353502_Shevkunov_27\\IGI\\LR5\\lr5\\estate_agency_back\\templates\\base.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:estate_agency_back\\templates\\base.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\353502_Shevkunov_27\\IGI\\LR5\\lr5\\estate_agency_back\\insurance_agency\\urls.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:estate_agency_back\\insurance_agency\\urls.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\353502_Shevkunov_27\\IGI\\LR5\\lr5\\estate_agency_back\\insurance_agency\\views.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:estate_agency_back\\insurance_agency\\views.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\353502_Shevkunov_27\\IGI\\LR5\\lr5\\estate_agency_back\\insurance_agency_back\\settings.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:estate_agency_back\\insurance_agency_back\\settings.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\353502_Shevkunov_27\\IGI\\LR5\\lr5\\estate_agency_back\\insurance_agency_back\\wsgi.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:estate_agency_back\\insurance_agency_back\\wsgi.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\353502_Shevkunov_27\\IGI\\LR5\\lr5\\estate_agency_back\\manage.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:estate_agency_back\\manage.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\353502_Shevkunov_27\\IGI\\LR5\\lr5\\estate_agency_back\\site_manager\\stats.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:estate_agency_back\\site_manager\\stats.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\353502_Shevkunov_27\\IGI\\LR5\\lr5\\estate_agency_back\\site_manager\\forms.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:estate_agency_back\\site_manager\\forms.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\353502_Shevkunov_27\\IGI\\LR5\\lr5\\estate_agency_back\\reviews\\views.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:estate_agency_back\\reviews\\views.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\353502_Shevkunov_27\\IGI\\LR5\\lr5\\estate_agency_back\\reviews\\urls.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:estate_agency_back\\reviews\\urls.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\353502_Shevkunov_27\\IGI\\LR5\\lr5\\estate_agency_back\\insurance_agency_back\\urls.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:estate_agency_back\\insurance_agency_back\\urls.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\353502_Shevkunov_27\\IGI\\LR5\\lr5\\estate_agency_back\\promocodes\\models.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:estate_agency_back\\promocodes\\models.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\353502_Shevkunov_27\\IGI\\LR5\\lr5\\estate_agency_back\\reviews\\models.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:estate_agency_back\\reviews\\models.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\353502_Shevkunov_27\\IGI\\LR5\\lr5\\estate_agency_back\\site_manager\\models.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:estate_agency_back\\site_manager\\models.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\353502_Shevkunov_27\\IGI\\LR5\\lr5\\estate_agency_back\\articles\\models.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:estate_agency_back\\articles\\models.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\353502_Shevkunov_27\\IGI\\LR5\\lr5\\estate_agency_back\\insurance_agency\\templates\\insurance_agency\\deals.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:estate_agency_back\\insurance_agency\\templates\\insurance_agency\\deals.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\353502_Shevkunov_27\\IGI\\LR5\\lr5\\estate_agency_back\\insurance_agency\\templates\\insurance_agency\\customers.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:estate_agency_back\\insurance_agency\\templates\\insurance_agency\\customers.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\353502_Shevkunov_27\\IGI\\LR5\\lr5\\estate_agency_back\\insurance_agency\\__init__.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:estate_agency_back\\insurance_agency\\__init__.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\353502_Shevkunov_27\\IGI\\LR5\\lr5\\estate_agency_back\\insurance_agency\\tests.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:estate_agency_back\\insurance_agency\\tests.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\353502_Shevkunov_27\\IGI\\LR5\\lr5\\estate_agency_back\\insurance_agency\\models.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:estate_agency_back\\insurance_agency\\models.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\353502_Shevkunov_27\\IGI\\LR5\\lr5\\estate_agency_back\\insurance_agency\\forms.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:estate_agency_back\\insurance_agency\\forms.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\353502_Shevkunov_27\\IGI\\LR5\\lr5\\estate_agency_back\\insurance_agency\\apps.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:estate_agency_back\\insurance_agency\\apps.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\353502_Shevkunov_27\\IGI\\LR5\\lr5\\estate_agency_back\\insurance_agency\\admin.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:estate_agency_back\\insurance_agency\\admin.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\353502_Shevkunov_27\\IGI\\LR5\\lr5\\estate_agency_back\\insurance_agency_back\\asgi.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:estate_agency_back\\insurance_agency_back\\asgi.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\353502_Shevkunov_27\\IGI\\LR5\\lr5\\estate_agency_back\\templates\\confirm_delete.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:estate_agency_back\\templates\\confirm_delete.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\353502_Shevkunov_27\\IGI\\LR5\\lr5\\estate_agency_back\\templates\\form.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:estate_agency_back\\templates\\form.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\353502_Shevkunov_27\\IGI\\LR5\\lr5\\estate_agency_back\\pytest.ini||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:estate_agency_back\\pytest.ini||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\353502_Shevkunov_27\\IGI\\LR5\\lr5\\estate_agency_back\\site_manager\\tests.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:estate_agency_back\\site_manager\\tests.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\353502_Shevkunov_27\\IGI\\LR5\\lr5\\estate_agency_back\\articles\\templates\\articles\\article.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:estate_agency_back\\articles\\templates\\articles\\article.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "about.html",
+              "DocumentMoniker": "D:\\353502_Shevkunov_27\\IGI\\LR5\\lr5\\estate_agency_back\\site_manager\\templates\\site_manager\\about.html",
+              "RelativeDocumentMoniker": "estate_agency_back\\site_manager\\templates\\site_manager\\about.html",
+              "ToolTip": "D:\\353502_Shevkunov_27\\IGI\\LR5\\lr5\\estate_agency_back\\site_manager\\templates\\site_manager\\about.html",
+              "RelativeToolTip": "estate_agency_back\\site_manager\\templates\\site_manager\\about.html",
+              "ViewState": "AgIAAA8AAADAzMzMzMwgwBYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-06-01T23:01:53.925Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "home.html",
+              "DocumentMoniker": "D:\\353502_Shevkunov_27\\IGI\\LR5\\lr5\\estate_agency_back\\site_manager\\templates\\site_manager\\home.html",
+              "RelativeDocumentMoniker": "estate_agency_back\\site_manager\\templates\\site_manager\\home.html",
+              "ToolTip": "D:\\353502_Shevkunov_27\\IGI\\LR5\\lr5\\estate_agency_back\\site_manager\\templates\\site_manager\\home.html",
+              "RelativeToolTip": "estate_agency_back\\site_manager\\templates\\site_manager\\home.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-06-01T22:53:55.339Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "urls.py",
+              "DocumentMoniker": "D:\\353502_Shevkunov_27\\IGI\\LR5\\lr5\\estate_agency_back\\insurance_agency\\urls.py",
+              "RelativeDocumentMoniker": "estate_agency_back\\insurance_agency\\urls.py",
+              "ToolTip": "D:\\353502_Shevkunov_27\\IGI\\LR5\\lr5\\estate_agency_back\\insurance_agency\\urls.py",
+              "RelativeToolTip": "estate_agency_back\\insurance_agency\\urls.py",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2025-06-01T22:51:42.691Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "wsgi.py",
+              "DocumentMoniker": "D:\\353502_Shevkunov_27\\IGI\\LR5\\lr5\\estate_agency_back\\insurance_agency_back\\wsgi.py",
+              "RelativeDocumentMoniker": "estate_agency_back\\insurance_agency_back\\wsgi.py",
+              "ToolTip": "D:\\353502_Shevkunov_27\\IGI\\LR5\\lr5\\estate_agency_back\\insurance_agency_back\\wsgi.py",
+              "RelativeToolTip": "estate_agency_back\\insurance_agency_back\\wsgi.py",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2025-06-01T22:46:18.574Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "views.py",
+              "DocumentMoniker": "D:\\353502_Shevkunov_27\\IGI\\LR5\\lr5\\estate_agency_back\\site_manager\\views.py",
+              "RelativeDocumentMoniker": "estate_agency_back\\site_manager\\views.py",
+              "ToolTip": "D:\\353502_Shevkunov_27\\IGI\\LR5\\lr5\\estate_agency_back\\site_manager\\views.py",
+              "RelativeToolTip": "estate_agency_back\\site_manager\\views.py",
+              "ViewState": "AgIAADYAAAAAAAAAAABAPRIAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2025-06-01T22:35:22.892Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "urls.py",
+              "DocumentMoniker": "D:\\353502_Shevkunov_27\\IGI\\LR5\\lr5\\estate_agency_back\\site_manager\\urls.py",
+              "RelativeDocumentMoniker": "estate_agency_back\\site_manager\\urls.py",
+              "ToolTip": "D:\\353502_Shevkunov_27\\IGI\\LR5\\lr5\\estate_agency_back\\site_manager\\urls.py",
+              "RelativeToolTip": "estate_agency_back\\site_manager\\urls.py",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2025-06-01T22:35:17.374Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "forms.py",
+              "DocumentMoniker": "D:\\353502_Shevkunov_27\\IGI\\LR5\\lr5\\estate_agency_back\\site_manager\\forms.py",
+              "RelativeDocumentMoniker": "estate_agency_back\\site_manager\\forms.py",
+              "ToolTip": "D:\\353502_Shevkunov_27\\IGI\\LR5\\lr5\\estate_agency_back\\site_manager\\forms.py",
+              "RelativeToolTip": "estate_agency_back\\site_manager\\forms.py",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2025-06-01T22:35:09.779Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "views.py",
+              "DocumentMoniker": "D:\\353502_Shevkunov_27\\IGI\\LR5\\lr5\\estate_agency_back\\reviews\\views.py",
+              "RelativeDocumentMoniker": "estate_agency_back\\reviews\\views.py",
+              "ToolTip": "D:\\353502_Shevkunov_27\\IGI\\LR5\\lr5\\estate_agency_back\\reviews\\views.py",
+              "RelativeToolTip": "estate_agency_back\\reviews\\views.py",
+              "ViewState": "AgIAAA8AAACAzMzMzMwgwAoAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2025-06-01T22:34:44.522Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "urls.py",
+              "DocumentMoniker": "D:\\353502_Shevkunov_27\\IGI\\LR5\\lr5\\estate_agency_back\\reviews\\urls.py",
+              "RelativeDocumentMoniker": "estate_agency_back\\reviews\\urls.py",
+              "ToolTip": "D:\\353502_Shevkunov_27\\IGI\\LR5\\lr5\\estate_agency_back\\reviews\\urls.py",
+              "RelativeToolTip": "estate_agency_back\\reviews\\urls.py",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2025-06-01T22:34:36.883Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "urls.py",
+              "DocumentMoniker": "D:\\353502_Shevkunov_27\\IGI\\LR5\\lr5\\estate_agency_back\\insurance_agency_back\\urls.py",
+              "RelativeDocumentMoniker": "estate_agency_back\\insurance_agency_back\\urls.py",
+              "ToolTip": "D:\\353502_Shevkunov_27\\IGI\\LR5\\lr5\\estate_agency_back\\insurance_agency_back\\urls.py",
+              "RelativeToolTip": "estate_agency_back\\insurance_agency_back\\urls.py",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2025-06-01T22:34:02.302Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "stats.py",
+              "DocumentMoniker": "D:\\353502_Shevkunov_27\\IGI\\LR5\\lr5\\estate_agency_back\\site_manager\\stats.py",
+              "RelativeDocumentMoniker": "estate_agency_back\\site_manager\\stats.py",
+              "ToolTip": "D:\\353502_Shevkunov_27\\IGI\\LR5\\lr5\\estate_agency_back\\site_manager\\stats.py",
+              "RelativeToolTip": "estate_agency_back\\site_manager\\stats.py",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2025-06-01T22:20:43.989Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "settings.py",
+              "DocumentMoniker": "D:\\353502_Shevkunov_27\\IGI\\LR5\\lr5\\estate_agency_back\\insurance_agency_back\\settings.py",
+              "RelativeDocumentMoniker": "estate_agency_back\\insurance_agency_back\\settings.py",
+              "ToolTip": "D:\\353502_Shevkunov_27\\IGI\\LR5\\lr5\\estate_agency_back\\insurance_agency_back\\settings.py",
+              "RelativeToolTip": "estate_agency_back\\insurance_agency_back\\settings.py",
+              "ViewState": "AgIAAGQAAAAAAAAAAAApwHYAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2025-06-01T22:24:08.352Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "base.html",
+              "DocumentMoniker": "D:\\353502_Shevkunov_27\\IGI\\LR5\\lr5\\estate_agency_back\\templates\\base.html",
+              "RelativeDocumentMoniker": "estate_agency_back\\templates\\base.html",
+              "ToolTip": "D:\\353502_Shevkunov_27\\IGI\\LR5\\lr5\\estate_agency_back\\templates\\base.html",
+              "RelativeToolTip": "estate_agency_back\\templates\\base.html",
+              "ViewState": "AgIAADAAAAAAAAAAAABAPQAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-06-01T22:22:31.55Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "models.py",
+              "DocumentMoniker": "D:\\353502_Shevkunov_27\\IGI\\LR5\\lr5\\estate_agency_back\\promocodes\\models.py",
+              "RelativeDocumentMoniker": "estate_agency_back\\promocodes\\models.py",
+              "ToolTip": "D:\\353502_Shevkunov_27\\IGI\\LR5\\lr5\\estate_agency_back\\promocodes\\models.py",
+              "RelativeToolTip": "estate_agency_back\\promocodes\\models.py",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2025-06-01T22:33:14.105Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "views.py",
+              "DocumentMoniker": "D:\\353502_Shevkunov_27\\IGI\\LR5\\lr5\\estate_agency_back\\insurance_agency\\views.py",
+              "RelativeDocumentMoniker": "estate_agency_back\\insurance_agency\\views.py",
+              "ToolTip": "D:\\353502_Shevkunov_27\\IGI\\LR5\\lr5\\estate_agency_back\\insurance_agency\\views.py",
+              "RelativeToolTip": "estate_agency_back\\insurance_agency\\views.py",
+              "ViewState": "AgIAAKQAAACAmZmZmZkbwKUAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2025-06-01T22:27:29.495Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "models.py",
+              "DocumentMoniker": "D:\\353502_Shevkunov_27\\IGI\\LR5\\lr5\\estate_agency_back\\reviews\\models.py",
+              "RelativeDocumentMoniker": "estate_agency_back\\reviews\\models.py",
+              "ToolTip": "D:\\353502_Shevkunov_27\\IGI\\LR5\\lr5\\estate_agency_back\\reviews\\models.py",
+              "RelativeToolTip": "estate_agency_back\\reviews\\models.py",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2025-06-01T22:33:05.37Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "manage.py",
+              "DocumentMoniker": "D:\\353502_Shevkunov_27\\IGI\\LR5\\lr5\\estate_agency_back\\manage.py",
+              "RelativeDocumentMoniker": "estate_agency_back\\manage.py",
+              "ToolTip": "D:\\353502_Shevkunov_27\\IGI\\LR5\\lr5\\estate_agency_back\\manage.py",
+              "RelativeToolTip": "estate_agency_back\\manage.py",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2025-06-01T21:42:35.922Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "models.py",
+              "DocumentMoniker": "D:\\353502_Shevkunov_27\\IGI\\LR5\\lr5\\estate_agency_back\\site_manager\\models.py",
+              "RelativeDocumentMoniker": "estate_agency_back\\site_manager\\models.py",
+              "ToolTip": "D:\\353502_Shevkunov_27\\IGI\\LR5\\lr5\\estate_agency_back\\site_manager\\models.py",
+              "RelativeToolTip": "estate_agency_back\\site_manager\\models.py",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2025-06-01T22:32:43.269Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "models.py",
+              "DocumentMoniker": "D:\\353502_Shevkunov_27\\IGI\\LR5\\lr5\\estate_agency_back\\articles\\models.py",
+              "RelativeDocumentMoniker": "estate_agency_back\\articles\\models.py",
+              "ToolTip": "D:\\353502_Shevkunov_27\\IGI\\LR5\\lr5\\estate_agency_back\\articles\\models.py",
+              "RelativeToolTip": "estate_agency_back\\articles\\models.py",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2025-06-01T22:32:10.555Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "deals.html",
+              "DocumentMoniker": "D:\\353502_Shevkunov_27\\IGI\\LR5\\lr5\\estate_agency_back\\insurance_agency\\templates\\insurance_agency\\deals.html",
+              "RelativeDocumentMoniker": "estate_agency_back\\insurance_agency\\templates\\insurance_agency\\deals.html",
+              "ToolTip": "D:\\353502_Shevkunov_27\\IGI\\LR5\\lr5\\estate_agency_back\\insurance_agency\\templates\\insurance_agency\\deals.html",
+              "RelativeToolTip": "estate_agency_back\\insurance_agency\\templates\\insurance_agency\\deals.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-06-01T22:27:58.929Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "customers.html",
+              "DocumentMoniker": "D:\\353502_Shevkunov_27\\IGI\\LR5\\lr5\\estate_agency_back\\insurance_agency\\templates\\insurance_agency\\customers.html",
+              "RelativeDocumentMoniker": "estate_agency_back\\insurance_agency\\templates\\insurance_agency\\customers.html",
+              "ToolTip": "D:\\353502_Shevkunov_27\\IGI\\LR5\\lr5\\estate_agency_back\\insurance_agency\\templates\\insurance_agency\\customers.html",
+              "RelativeToolTip": "estate_agency_back\\insurance_agency\\templates\\insurance_agency\\customers.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-06-01T22:27:56.455Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "__init__.py",
+              "DocumentMoniker": "D:\\353502_Shevkunov_27\\IGI\\LR5\\lr5\\estate_agency_back\\insurance_agency\\__init__.py",
+              "RelativeDocumentMoniker": "estate_agency_back\\insurance_agency\\__init__.py",
+              "ToolTip": "D:\\353502_Shevkunov_27\\IGI\\LR5\\lr5\\estate_agency_back\\insurance_agency\\__init__.py",
+              "RelativeToolTip": "estate_agency_back\\insurance_agency\\__init__.py",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2025-06-01T22:27:36.134Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "tests.py",
+              "DocumentMoniker": "D:\\353502_Shevkunov_27\\IGI\\LR5\\lr5\\estate_agency_back\\insurance_agency\\tests.py",
+              "RelativeDocumentMoniker": "estate_agency_back\\insurance_agency\\tests.py",
+              "ToolTip": "D:\\353502_Shevkunov_27\\IGI\\LR5\\lr5\\estate_agency_back\\insurance_agency\\tests.py",
+              "RelativeToolTip": "estate_agency_back\\insurance_agency\\tests.py",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2025-06-01T22:27:18.033Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "forms.py",
+              "DocumentMoniker": "D:\\353502_Shevkunov_27\\IGI\\LR5\\lr5\\estate_agency_back\\insurance_agency\\forms.py",
+              "RelativeDocumentMoniker": "estate_agency_back\\insurance_agency\\forms.py",
+              "ToolTip": "D:\\353502_Shevkunov_27\\IGI\\LR5\\lr5\\estate_agency_back\\insurance_agency\\forms.py",
+              "RelativeToolTip": "estate_agency_back\\insurance_agency\\forms.py",
+              "ViewState": "AgIAAEUAAAAAAAAAAABAPQAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2025-06-01T22:26:25.989Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "apps.py",
+              "DocumentMoniker": "D:\\353502_Shevkunov_27\\IGI\\LR5\\lr5\\estate_agency_back\\insurance_agency\\apps.py",
+              "RelativeDocumentMoniker": "estate_agency_back\\insurance_agency\\apps.py",
+              "ToolTip": "D:\\353502_Shevkunov_27\\IGI\\LR5\\lr5\\estate_agency_back\\insurance_agency\\apps.py",
+              "RelativeToolTip": "estate_agency_back\\insurance_agency\\apps.py",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2025-06-01T22:26:16.855Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "asgi.py",
+              "DocumentMoniker": "D:\\353502_Shevkunov_27\\IGI\\LR5\\lr5\\estate_agency_back\\insurance_agency_back\\asgi.py",
+              "RelativeDocumentMoniker": "estate_agency_back\\insurance_agency_back\\asgi.py",
+              "ToolTip": "D:\\353502_Shevkunov_27\\IGI\\LR5\\lr5\\estate_agency_back\\insurance_agency_back\\asgi.py",
+              "RelativeToolTip": "estate_agency_back\\insurance_agency_back\\asgi.py",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2025-06-01T22:25:34.087Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "confirm_delete.html",
+              "DocumentMoniker": "D:\\353502_Shevkunov_27\\IGI\\LR5\\lr5\\estate_agency_back\\templates\\confirm_delete.html",
+              "RelativeDocumentMoniker": "estate_agency_back\\templates\\confirm_delete.html",
+              "ToolTip": "D:\\353502_Shevkunov_27\\IGI\\LR5\\lr5\\estate_agency_back\\templates\\confirm_delete.html",
+              "RelativeToolTip": "estate_agency_back\\templates\\confirm_delete.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-06-01T22:22:40.821Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "form.html",
+              "DocumentMoniker": "D:\\353502_Shevkunov_27\\IGI\\LR5\\lr5\\estate_agency_back\\templates\\form.html",
+              "RelativeDocumentMoniker": "estate_agency_back\\templates\\form.html",
+              "ToolTip": "D:\\353502_Shevkunov_27\\IGI\\LR5\\lr5\\estate_agency_back\\templates\\form.html",
+              "RelativeToolTip": "estate_agency_back\\templates\\form.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-06-01T22:22:39.126Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "pytest.ini",
+              "DocumentMoniker": "D:\\353502_Shevkunov_27\\IGI\\LR5\\lr5\\estate_agency_back\\pytest.ini",
+              "RelativeDocumentMoniker": "estate_agency_back\\pytest.ini",
+              "ToolTip": "D:\\353502_Shevkunov_27\\IGI\\LR5\\lr5\\estate_agency_back\\pytest.ini",
+              "RelativeToolTip": "estate_agency_back\\pytest.ini",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002768|",
+              "WhenOpened": "2025-06-01T22:20:55.315Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "models.py",
+              "DocumentMoniker": "D:\\353502_Shevkunov_27\\IGI\\LR5\\lr5\\estate_agency_back\\insurance_agency\\models.py",
+              "RelativeDocumentMoniker": "estate_agency_back\\insurance_agency\\models.py",
+              "ToolTip": "D:\\353502_Shevkunov_27\\IGI\\LR5\\lr5\\estate_agency_back\\insurance_agency\\models.py",
+              "RelativeToolTip": "estate_agency_back\\insurance_agency\\models.py",
+              "ViewState": "AgIAABsAAADAzMzMzMwgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2025-06-01T22:18:21.348Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "tests.py",
+              "DocumentMoniker": "D:\\353502_Shevkunov_27\\IGI\\LR5\\lr5\\estate_agency_back\\site_manager\\tests.py",
+              "RelativeDocumentMoniker": "estate_agency_back\\site_manager\\tests.py",
+              "ToolTip": "D:\\353502_Shevkunov_27\\IGI\\LR5\\lr5\\estate_agency_back\\site_manager\\tests.py",
+              "RelativeToolTip": "estate_agency_back\\site_manager\\tests.py",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2025-06-01T22:20:45.065Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "admin.py",
+              "DocumentMoniker": "D:\\353502_Shevkunov_27\\IGI\\LR5\\lr5\\estate_agency_back\\insurance_agency\\admin.py",
+              "RelativeDocumentMoniker": "estate_agency_back\\insurance_agency\\admin.py",
+              "ToolTip": "D:\\353502_Shevkunov_27\\IGI\\LR5\\lr5\\estate_agency_back\\insurance_agency\\admin.py",
+              "RelativeToolTip": "estate_agency_back\\insurance_agency\\admin.py",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
+              "WhenOpened": "2025-06-01T22:17:55.453Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "article.html",
+              "DocumentMoniker": "D:\\353502_Shevkunov_27\\IGI\\LR5\\lr5\\estate_agency_back\\articles\\templates\\articles\\article.html",
+              "RelativeDocumentMoniker": "estate_agency_back\\articles\\templates\\articles\\article.html",
+              "ToolTip": "D:\\353502_Shevkunov_27\\IGI\\LR5\\lr5\\estate_agency_back\\articles\\templates\\articles\\article.html",
+              "RelativeToolTip": "estate_agency_back\\articles\\templates\\articles\\article.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-06-01T22:19:33.84Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

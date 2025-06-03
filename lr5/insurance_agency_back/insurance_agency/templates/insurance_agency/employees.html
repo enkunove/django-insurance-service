@@ -1,0 +1,60 @@
+{% extends "base.html" %}
+
+{% block site_name %}Employee list{% endblock %}
+
+{% block content %}
+
+<div style="width: 1000px; margin: 0 auto; display: flex; flex-direction: column; gap: 20px;">
+    {% if user.is_superuser %}
+        <p style="text-align: center;">
+            <a href="{% url 'admin-employee' %}"
+               style="text-decoration: none; color:  #2c3e50; font-size: 30px;">
+                + Add new employee
+            </a>
+        </p>
+        {% if not employees %}
+        <p><div  style="text-decoration: none; color:  #2c3e50; font-size: 30px;">
+            The list of employees is empty
+        </div></p>
+        {% endif %}
+
+    {% for employee in employees %}
+    <div style="border: 1px solid #ccc; padding: 20px; border-radius: 10px;
+         background-color: #f9f9f9; width: 600px; margin: 10px auto;">
+
+                    <!-- Кнопка -->
+            <a href="{% url 'employee-update' employee.pk %}"
+               style="position: absolute; padding: 8px 16px; right: 600px;
+                          background-color: #2c3e50; color: white; border: none;
+                          border-radius: 4px; cursor: pointer;">
+                Edit
+            </a>
+
+        <!-- Обёртка для изображения + текста -->
+        <div style="display: flex; align-items: flex-start; gap: 20px;">
+            {% if employee.image %}
+                <img src="{{ employee.image.url }}" alt="Employee photo" height="250"
+                     style="flex-shrink: 0; border: 1px solid #ddd; border-radius: 8px;">
+            {% endif %}
+
+            <!-- Текст рядом с картинкой -->
+            <div>
+                <h2>{{ employee.user.full_name }}</h2>
+                <p>{{ employee.user.email }}</p>
+                <p><strong>Work type:</strong> {{ employee.work_type.name }}</p>
+                <p><strong>Work experience:</strong> {{ employee.work_experience }}</p>
+            </div>
+        </div>
+
+    </div>
+    {% endfor %}
+    {% else %}
+     <p style="text-align: center;">
+            <a href="{% url 'login' %}"
+               style="text-decoration: none; color:  #2c3e50; font-size: 30px;">
+                YOU ARE NOT ADMIN!
+            </a>
+        </p>
+    {% endif %}
+</div>
+{% endblock %}

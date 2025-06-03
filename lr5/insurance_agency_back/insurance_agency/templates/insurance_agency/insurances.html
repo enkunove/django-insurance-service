@@ -1,0 +1,68 @@
+{% extends "base.html" %}
+
+{% block site_name %}Realty list{% endblock %}
+
+{% block content %}
+
+<form method="get" style="margin-bottom: 20px; text-align: center;">
+    <input type="text" name="q" placeholder="Search by type..." value="{{ request.GET.q }}">
+    <select name="sort_by">
+        <option value="">Sort by</option>
+        <option value="price" {% if request.GET.sort_by == 'price' %}selected{% endif %}>Price (asc)</option>
+        <option value="-price" {% if request.GET.sort_by == '-price' %}selected{% endif %}>Price (desc)</option>
+    </select>
+    <button type="submit">Apply</button>
+</form>
+
+
+<div style="width: 1000px; margin: 0 auto; display: flex; flex-direction: column; gap: 20px;">
+    <h1>Total insurances: {{offers}} </h1>
+    {% if user.is_authenticated %}
+        <p style="text-align: center;">
+            <a href="{% url 'realty-add' %}"
+               style="text-decoration: none; color:  #2c3e50; font-size: 30px;">
+                + Add new realty
+            </a>
+        </p>
+    {% else %}
+     <p style="text-align: center;">
+            <a href="{% url 'login' %}"
+               style="text-decoration: none; color:  #2c3e50; font-size: 30px;">
+                If you want to see more information, log in to your account.
+            </a>
+        </p>
+    {% endif %}
+    {% if not insurances %}
+    <p><div  style="text-decoration: none; color:  #2c3e50; font-size: 30px;">
+        The list of insurances is empty
+    </div></p>
+    {% endif %}
+    {% for insurance in insurances %}
+    <div style="border: 1px solid #ccc; padding: 20px; border-radius: 10px;
+         background-color: #f9f9f9; width: 600px; margin: 10px auto;">
+
+        <!-- Обёртка для изображения + текста -->
+        <div style="display: flex; align-items: flex-start; gap: 20px;">
+            {% if insurance.photo %}
+                <img src="{{ insurance.photo.url }}" alt="Realty photo" height="250"
+                     style="flex-shrink: 0; border: 1px solid #ddd; border-radius: 8px;">
+            {% endif %}
+
+            <!-- Текст рядом с картинкой -->
+            <div>
+                <h2>{{ insurance.name }}</h2>
+                <p>{{ insurance.price }}$</p>
+                <p><strong>Email:</strong> {{ insurance.owner.user.email }}</p>
+                <p><strong>Phone:</strong> {{ insurance.owner.user.phone_number }}</p>
+            </div>
+        </div>
+
+        {% if user.is_authenticated %}
+        <div style="margin-top: 10px;">
+            <p><a href="{% url 'realty-detail' insurance.id %}">See more</a></p>
+        </div>
+        {% endif %}
+    </div>
+    {% endfor %}
+</div>
+{% endblock %}

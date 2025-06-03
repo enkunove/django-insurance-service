@@ -1,0 +1,88 @@
+{% extends "base.html" %}
+
+{% block site_name %}{{user.username}} profile{% endblock %}
+
+{% block content %}
+    <h1>Welcome to your profile, {{user.username}}!</h1>
+    <div style="color: #2c3e50">
+        <h1>{{profile.full_name}}</h1>
+    </div>
+    <div style="width: 1000px;  display: flex; align-items: flex-start; gap: 20px;">
+        <div>
+        {% if employee %}
+            {% if employee.image %}
+            <img src="{{ employee.image.url }}" alt="Employee photo" height="250"
+                     style="flex-shrink: 0; border: 1px solid #ddd; border-radius: 8px;">
+            {% endif %}
+        {% endif %}
+        </div>
+        <div>
+        {% if customer %}
+            <h2>Customer</h2>
+            <p><strong>Budget: </strong>{{customer.budget}}</p>
+            <p><strong>Notes: </strong>{{customer.notes}}</p>
+        {% endif %}
+        </div>
+        <div>
+        {% if owner %}
+            <h2>Owner</h2>
+            <p><strong>Rating: </strong>{{owner.rating}}</p>
+            <p><strong>Preferred contact time: </strong>{{owner.preferred_contact_time}}</p>
+            <p><strong>Notes: </strong>{{owner.notes}}</p>
+        {% endif %}
+        </div>
+    </div>
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 40px; max-width: 1200px; margin: 20px auto; padding: 0 20px;">
+
+        <div>
+            <h1>Actions on the site</h1>
+            <h2>Reviews</h2>
+            <ul>
+                <li><a href="{% url 'review-add' %}">Add review</a></li>
+                <li><a href="{% url 'my-reviews' %}">My reviews</a></li>
+            </ul>
+            <h2>Roles</h2>
+            <ul>
+                <li><a href="{% url 'assign-employee' %}">I am an employee</a></li>
+                <li><a href="{% url 'assign-customer' %}">I am customer</a></li>
+                <li><a href="{% url 'assign-owner' %}">I am owner</a></li>
+            </ul>
+        </div>
+        <div>
+            <h1>insurance agency actions</h1>
+            {% if customer %}
+                <p><strong>For customers : </strong></p>
+                <ul>
+                    <li><a href="{% url 'insurances-list' %}">insurances list</a></li>
+                    <li><a href="{% url 'my-deals' %}">My deals</a></li>
+                </ul>
+            {% endif %}
+            {% if owner %}
+                <p><strong>For owners : </strong></p>
+                <ul>
+                    <li><a href="{% url 'insurances-list' %}">insurances list</a></li>
+                    <li><a href="{% url 'realty-add' %}">Add real insurance</a></li>
+                    <li><a href="{% url 'my-insurances' %}">My insurances</a></li>
+                    <li><a href="{% url 'my-deals' %}">My deals</a></li>
+                </ul>
+            {% endif %}
+            {% if user.is_staff %}
+                <p><strong>For employees : </strong></p>
+                <ul>
+                    <li><a href="{% url 'insurances-list' %}">insurances list</a></li>
+                    <li><a href="{% url 'deals' %}">All deals</a></li>
+                </ul>
+            {% endif %}
+            {% if user.is_superuser %}
+                <p><strong>For admin : </strong></p>
+                <ul>
+                    <li><a href="{% url 'statistics' %}">Statistics</a></li>
+                    <li><a href="{% url 'customers' %}">Customers</a></li>
+                    <li><a href="{% url 'employees' %}">Employees</a></li>
+                </ul>
+            {% endif %}
+        </div>
+
+    </div>
+{% endblock %}

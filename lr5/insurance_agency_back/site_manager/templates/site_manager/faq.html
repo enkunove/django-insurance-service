@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block site_name %}FAQ{% endblock %}
+
+{% block content %}
+    <h1>Questions & Answers</h1>
+    {% for item in faq %}
+        <hr>
+        <p><strong>Question: </strong>{{item.question}}</p>
+        <p><strong>Answer: </strong>{{item.answer}}</p>
+        <p>Answer date: {{item.answer_date|date:"d/m/Y H:i"}}</p>
+    {% endfor %}
+
+{% endblock %}

@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+
+{% block site_name %}{% endblock %}
+
+{% block content %}
+<h2>Fill the form</h2>
+
+<form method="post" enctype="multipart/form-data">
+    {% csrf_token %}
+
+    {% if form.non_field_errors %}
+        <div style="color: red; font-weight: bold;">
+            {{ form.non_field_errors }}
+        </div>
+    {% endif %}
+
+    {% for field in form %}
+        <div style="margin-bottom: 15px;">
+            <label for="{{ field.id_for_label }}">{{ field.label }}</label><br>
+            {{ field }}
+            {% if field.help_text %}
+                <small style="color: #555;">{{ field.help_text }}</small><br>
+            {% endif %}
+            {% if field.errors %}
+                <div style="color: red;">
+                    {{ field.errors|striptags }}
+                </div>
+            {% endif %}
+        </div>
+    {% endfor %}
+
+    {% if messages %}
+        {% for message in messages %}
+            <div style="color: red; font-weight: bold;">
+                {{ message }}
+            </div>
+        {% endfor %}
+    {% endif %}
+
+    <button type="submit">Assign</button>
+</form>
+
+<p><a href="{% url 'profile' %}">← Back to profile</a></p>
+{% endblock %}

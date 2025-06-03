@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        header {
+            font-family: "Comic Sans MS";
+            background-color: #2c3e50;
+            color: white;
+            padding: 1rem 2rem;
+            text-align: center;
+        }
+
+        main {
+            font-family: "Candara";
+            flex: 1;
+            padding: 2rem;
+        }
+
+        footer {
+            font-family: "Candara";
+            background-color: #ecf0f1;
+            padding: 1rem 2rem;
+            text-align: center;
+        }
+
+        footer a {
+            margin: 0 1rem;
+            color: #2c3e50;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        .top-links a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .top-links a:hover {
+            text-decoration: underline;
+            color: white;
+        }
+
+    </style>
+    {% block extra_head %}{% endblock %}
+</head>
+<body>
+
+    <header>
+        <div class="top-links" style="position: absolute; top: 10px; right: 20px; color: white">
+            {% if user.is_authenticated %}
+                <span>Hello, {{ user.username }} | </span>
+                <span><a href="{% url 'profile' %}">Personal account | </a></span>
+                <span><a href="{% url 'logout' %}">Log out</a></span>
+            {% else %}
+                <span><a href="{% url 'registration' %}">Register | </a></span>
+                <span><a href="{% url 'login' %}">Log in | </a></span>
+            {% endif %}
+        </div>
+        <h1>insurance Agency</h1>
+        <h2>{% block site_name %}{% endblock %}</h2>
+    </header>
+
+    <main>
+        {% block content %}
+        {% endblock %}
+    </main>
+
+    <footer>
+        <div>
+            <a href="{% url 'home' %}">Home</a>
+            <a href="{% url 'faq' %}">FAQ</a>
+            <a href="{% url 'about' %}">About us</a>
+            <a href="{% url 'news' %}">News</a>
+            <a href="{% url 'contacts' %}">Contacts</a>
+            <a href="{% url 'privacy_policy' %}">Privacy policy</a>
+            <a href="{% url 'vacancies' %}">Vacancies</a>
+            <a href="{% url 'reviews' %}">Reviews</a>
+            <a href="{% url 'promocodes' %}">Promo codes</a>
+        </div>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,77 @@
+{% extends "base.html" %}
+
+{% block site_name %}Realty detail{% endblock %}
+
+{% block content %}
+<div style="width: 1000px; margin: 0 auto;">
+    <div style="border: 1px solid #ccc; padding: 20px; border-radius: 10px;
+     background-color: #f9f9f9; max-width: 900px; margin: 10px; align-self: center; position: relative;">  <!-- Добавил position: relative -->
+
+       {% if is_customer %}
+        <div>         <!-- Кнопка в правом нижнем углу -->
+        <a href="{% url 'deal-create' realty.pk %}"
+           style="position: absolute; bottom: 20px; right: 20px; padding: 8px 16px;
+                      background-color: #2c3e50; color: white; border: none;
+                      border-radius: 4px; cursor: pointer;">
+            Make a deal
+        </a>
+        </div>
+
+        {% elif is_owner %}
+        <div>         <!-- Кнопка для владельцев -->
+            <a href="{% url 'realty-update' realty.pk %}"
+               style="position: absolute; bottom: 20px; right: 150px; padding: 8px 16px;
+                          background-color: #2c3e50; color: white; border: none;
+                          border-radius: 4px; cursor: pointer;">
+                Edit insurance
+            </a>
+            <a href="{% url 'realty-delete' realty.pk%}"
+               style="position: absolute; bottom: 20px; right: 20px; padding: 8px 16px;
+                          background-color: #2c3e50; color: white; border: none;
+                          border-radius: 4px; cursor: pointer;">
+                Delete insurance
+            </a>
+        </div>
+        {% else %}  <!-- Кнопка для регистрации как покупателя -->
+        <div style="position: absolute; bottom: 80px; right: 40px;">
+            <h3>If you want to make a deal, please, add some customer info</h3>
+            <a href="{% url 'assign-customer' %}"
+               style="position: absolute; bottom: -30px; right: 20px; padding: 8px 16px;
+                      background-color: #2c3e50; color: white; border: none;
+                      border-radius: 4px; cursor: pointer; text-decoration: none;
+                      display: inline-block;">
+                Add info
+            </a>
+        </div>
+        {% endif %}
+
+        <!-- Обёртка для изображения + текста -->
+        <div style="display: flex; align-items: flex-start; gap: 20px; margin-top: 30px;">  <!-- Добавил margin-top -->
+            {% if realty.photo %}
+                <img src="{{ realty.photo.url }}" alt="Realty photo" width="550"
+                 style="flex-shrink: 0; border: 1px solid #ddd; border-radius: 8px;">
+            {% endif %}
+
+            <div style="font-size: 20px">
+                <h2>{{ realty.name }}</h2>
+                <h3>{{ realty.type.name }}</h3>
+                <p><strong>Address:</strong> {{ realty.address }}</p>
+                <p><strong>Price:</strong> {{ realty.price }}$</p>
+                <p><strong>Area:</strong> {{ realty.area }} sqr.m.</p>
+                <p><strong>Build year:</strong> {{ realty.built_year }}</p>
+            </div>
+        </div>
+
+        <!-- Фул текст статьи -->
+        <h2>Owner: {{ realty.owner.user.full_name }}</h2>
+        <p><strong>Rating:</strong> {{ realty.owner.rating }}★</p>
+        <p><strong>Prefer contact time:</strong> {{ realty.owner.preferred_contact_time }}</p>
+        <h3>Contacts: </h3>
+        <ul>
+            <li><strong>Email: </strong>{{realty.owner.user.email}}</li>
+            <li><strong>Phone: </strong>{{realty.owner.user.phone_number}}</li>
+        </ul>
+        <p><a href="{% url 'insurances-list' %}">← Back to all insurances</a></p>
+    </div>
+</div>
+{% endblock %}

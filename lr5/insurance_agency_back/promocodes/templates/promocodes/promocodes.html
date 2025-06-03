@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+{% block site_name %}Promocodes{% endblock %}
+
+{% block content %}
+<h1>10 promo codes with the longest availability period</h1>
+<div style="width: 1000px; margin: 0 auto;">
+    {% for promo in promocodes %}
+    <div style="border: 1px solid #ccc; padding: 20px; border-radius: 10px;
+     background-color: #f9f9f9; max-width: 800px; margin: 10px; align-self: center">
+        {% if user.is_authenticated %}
+        <h1>{{promo.secret_string}}</h1>
+        {% else %}
+        <h1><a href="{% url 'login' %}">Log in</a> into account to see promo</h1>
+        {% endif %}
+        <p><strong>Amount: </strong>{{promo.amount}}{{promo.discount_type}}</p>
+        <p><strong>Available period: </strong>{{promo.available_period}} month</p>
+    </div>
+    {% endfor %}
+</div>
+<a href="{% url 'home' %}">← Back to main page</a>
+{% endblock %}

@@ -1,0 +1,50 @@
+{% extends "base.html" %}
+
+{% block site_name %}Customer list{% endblock %}
+
+{% block content %}
+
+<div style="width: 1000px; margin: 0 auto; display: flex; flex-direction: column; gap: 20px;">
+    {% if user.is_superuser %}
+        <p style="text-align: center;">
+            <a href="{% url 'admin-customer' %}"
+               style="text-decoration: none; color:  #2c3e50; font-size: 30px;">
+                + Add new customer
+            </a>
+        </p>
+        {% if not customers %}
+        <p><div  style="text-decoration: none; color:  #2c3e50; font-size: 30px;">
+            The list of customers is empty
+        </div></p>
+        {% endif %}
+
+    {% for customer in customers %}
+    <div style="border: 1px solid #ccc; padding: 20px; border-radius: 10px;
+         background-color: #f9f9f9; width: 600px; margin: 10px auto;">
+
+                    <!-- Кнопка -->
+            <a href="{% url 'customer-update' customer.pk %}"
+               style="position: absolute; padding: 8px 16px; right: 600px;
+                          background-color: #2c3e50; color: white; border: none;
+                          border-radius: 4px; cursor: pointer;">
+                Edit
+            </a>
+            <div>
+                <h2>{{ customer.user.full_name }}</h2>
+                <p>{{ customer.user.email }}</p>
+                <p><strong>Budget:</strong> {{ customer.budget }}$</p>
+                <p><strong>Notes:</strong> {{ customer.notes }}</p>
+            </div>
+
+    </div>
+    {% endfor %}
+    {% else %}
+     <p style="text-align: center;">
+            <a href="{% url 'login' %}"
+               style="text-decoration: none; color:  #2c3e50; font-size: 30px;">
+                YOU ARE NOT ADMIN!
+            </a>
+        </p>
+    {% endif %}
+</div>
+{% endblock %}

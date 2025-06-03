@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+{% block site_name %}About us{% endblock %}
+
+{% block content %}
+    <h1>Our company info</h1>
+    {% if company.logo %}
+        <img src="{{ company.logo.url }}" alt="Company Logo" width="200">
+    {% endif %}
+    {% if company.video %}
+        <h2>Video link:</h2>
+        <p>{{company.video}}</p>
+    {% endif %}
+    {% if company.history %}
+        <h2>Our history:</h2>
+        <p>{{company.history}}</p>
+    {% endif %}
+    {% if company.requisites %}
+        <h2>Our requisites:</h2>
+        <p>{{company.requisites}}</p>
+    {% endif %}
+{% endblock %}

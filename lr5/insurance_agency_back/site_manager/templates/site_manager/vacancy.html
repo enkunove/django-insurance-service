@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+
+{% block site_name %}Vacancies{% endblock %}
+
+{% block content %}
+    <h1>Company vacancies</h1>
+    <div style="width: 1000px; margin: 0 auto; display: flex; align-items: flex-start; gap: 20px;">
+        {% for vac in vacancies %}
+        <div style="border: 1px solid #ccc; padding: 20px; border-radius: 10px;
+             background-color: #f9f9f9; max-width: 800px; margin: 10px; align-self: center">
+            <h2>{{vac.title}}</h2>
+            <p><strong>Type : </strong>{{vac.work_type.name}}</p>
+            <p><strong>Description: </strong>{{vac.description}}</p>
+        </div>
+        {% endfor %}
+    </div>
+<p><a href="{% url 'home' %}">← Back to main page</a></p>
+{% endblock %}

@@ -1,0 +1,53 @@
+{% extends "base.html" %}
+
+{% block site_name %}Deals{% endblock %}
+
+{% block content %}
+    {% if user.is_superuser %}
+        <p style="text-align: center;">
+            <a href="{% url 'deal-admin-create' %}"
+               style="text-decoration: none; color:  #2c3e50; font-size: 30px;">
+                + Add deal
+            </a>
+        </p>
+    {% endif %}
+{% if not deals %}
+    <p><div  style="text-decoration: none; color:  #2c3e50; font-size: 30px;">
+        No deals provided
+    </div></p>
+{% else %}
+    <div style="width: 400px; margin: 0 auto; gap: 20px;">
+
+        {% for deal in deals %}
+        <div style="border: 1px solid #ccc; padding: 20px; border-radius: 10px;
+         background-color: #f9f9f9; margin: 10px;">
+            <h2>{{deal.realty.name}}, {{deal.realty.price}}$</h2>
+            <p><strong>Type : </strong>{{deal.deal_type}}</p>
+            <p><strong>Status: </strong>{{deal.status}}</p>
+            <p><strong>Customer: </strong>{{deal.customer.user.full_name}}</p>
+            <p><strong>Owner: </strong>{{deal.owner.user.full_name}}</p>
+            <hr>
+            {% if deal.actual_end_date %}
+            <p><strong>End of payments: </strong>{{deal.actual_end_date}}</p>
+            {% endif %}
+            {% if deal.employee %}
+            <p><strong>Employee: </strong>{{deal.employee.user.full_name}}</p>
+            {% endif %}
+            {% if user.is_staff %}
+                <a href="{% url 'deal-update' deal.pk %}"
+                    style="padding: 8px 16px; background-color: #2c3e50; color: white;
+                    border: none;border-radius: 4px; cursor: pointer;">
+                    Edit
+                </a>
+                <a href="{% url 'deal-delete' deal.pk %}"
+                    style="padding: 8px 16px; background-color: #2c3e50; color: white;
+                    border: none;border-radius: 4px; cursor: pointer; margin-left: 10px">
+                    Delete
+                </a>
+            {% endif %}
+        </div>
+        {% endfor %}
+    </div>
+{% endif %}
+<p><a href="{% url 'insurances-list' %}">← Back to insurance list</a></p>
+{% endblock %}

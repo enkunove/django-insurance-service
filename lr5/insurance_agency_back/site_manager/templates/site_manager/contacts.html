@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+
+{% block site_name %}Contacts{% endblock %}
+
+{% block content %}
+<h1>Company contacts</h1>
+<div style="width: 1000px; margin: 0 auto; display: flex; flex-direction: column; gap: 20px;">
+    {% for contact in contacts %}
+    <div style="border: 1px solid #ccc; padding: 20px; border-radius: 10px;
+         background-color: #f9f9f9; width: 600px; margin: 10px auto;">
+
+        <!-- Обёртка для изображения + текста -->
+        <div style="display: flex; align-items: flex-start; gap: 20px;">
+            {% if contact.employee.image %}
+                <img src="{{ contact.employee.image.url }}" alt="Employee photo" height="250"
+                     style="flex-shrink: 0; border: 1px solid #ddd; border-radius: 8px;">
+            {% endif %}
+
+            <!-- Текст рядом с картинкой -->
+            <div>
+                <h2>{{ contact.employee.user.full_name }}</h2>
+                <p>{{ contact.employee.work_type.name }}</p>
+                <p><strong>Email:</strong> {{ contact.employee.user.email }}</p>
+                <p><strong>Phone:</strong> {{ contact.employee.user.phone_number }}</p>
+            </div>
+        </div>
+
+        <div style="margin-top: 10px;">
+            {% if contact.work_description %}
+                <p>{{ contact.work_description }}</p>
+            {% endif %}
+        </div>
+    </div>
+    {% endfor %}
+</div>
+
+<p><a href="{% url 'home' %}">← Back to main page</a></p>
+{% endblock %}

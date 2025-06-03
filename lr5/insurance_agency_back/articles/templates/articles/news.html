@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+
+{% block site_name %}News{% endblock %}
+
+{% block content %}
+<div style="width: 1000px; margin: 0 auto;">
+    <h2>{% block body_title %}Articles from our site:{% endblock %}</h2>
+    {% for art in articles %}
+    <div style="border: 1px solid #ccc; padding: 20px; border-radius: 10px;
+         background-color: #f9f9f9; margin: 10px;">
+            <div style="display: flex; align-items: flex-start; gap: 20px;">
+                {% if art.image %}
+                    <img src="{{ art.image.url }}" alt="Article picture" width="150"
+                         style="flex-shrink: 0; border: 1px solid #ddd; border-radius: 8px;">
+                {% endif %}
+
+                <div style="font-size: 20px">
+                    <h3>{{ art.title }}</h3>
+                    {% if art.short_content %}
+                        <p><strong>Short content:</strong> {{ art.short_content }}</p>
+                    {% endif %}
+                </div>
+            </div>
+        <p><a href="{% url 'article' art.pk %}">See more</a></p>
+        <p>{{ art.created_at|date:"d/m/Y H:i" }} by {% for auth in art.author.all %} , {{auth.full_name}} {% endfor %}</p>
+    </div>
+    {% endfor %}
+<p><a href="{% url 'home' %}">← Back to main page</a></p>
+</div>
+{% endblock %}
